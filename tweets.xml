@@ -1,0 +1,57 @@
+<?xml version="1.0"?>
+<Tweets xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <TweetModel>
+    <ID>teszt</ID>
+    <Poster>Jesus</Poster>
+    <Content>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</Content>
+    <Timestamp>0001-01-01T00:00:00</Timestamp>
+  </TweetModel>
+  <TweetModel>
+    <ID>220b324d-c047-4da5-81ec-295eacc51a44</ID>
+    <Poster>Jack</Poster>
+    <Content>asdasd</Content>
+    <Timestamp>2020-04-09T23:35:01.6178547+02:00</Timestamp>
+  </TweetModel>
+  <TweetModel>
+    <ID>a24ff31f-e6da-4145-89fb-faeca51281a8</ID>
+    <Poster>Jack</Poster>
+    <Content>thats it</Content>
+    <Timestamp>2020-04-09T23:35:07.6533024+02:00</Timestamp>
+  </TweetModel>
+  <TweetModel>
+    <ID>c3ee59eb-a4c6-40bb-acd6-b60d6dceeb16</ID>
+    <Poster>David</Poster>
+    <Content>What's up?</Content>
+    <Timestamp>2020-04-10T00:05:43.9981478+02:00</Timestamp>
+  </TweetModel>
+  <TweetModel>
+    <ID>4152bee9-0299-4737-bff5-a474c0c652cb</ID>
+    <Poster>David</Poster>
+    <Content>Hi all again</Content>
+    <Timestamp>2020-04-10T00:21:31.2004981+02:00</Timestamp>
+  </TweetModel>
+  <TweetModel>
+    <ID>a662084d-801d-4b39-bb2e-65a0c7b1bc06</ID>
+    <Poster>Joseph</Poster>
+    <Content>Random.org</Content>
+    <Timestamp>2020-04-10T00:21:41.0252696+02:00</Timestamp>
+  </TweetModel>
+  <TweetModel>
+    <ID>6b560dfa-6110-4a27-9c70-e9f167bc9ed9</ID>
+    <Poster>Jesus</Poster>
+    <Content>tied</Content>
+    <Timestamp>2020-04-10T00:21:46.5502663+02:00</Timestamp>
+  </TweetModel>
+  <TweetModel>
+    <ID>53b63129-f79c-4134-8749-65c9d7f9ee14</ID>
+    <Poster>Jesus</Poster>
+    <Content>asfasd</Content>
+    <Timestamp>2020-04-10T00:54:51.2944263+02:00</Timestamp>
+  </TweetModel>
+  <TweetModel>
+    <ID>b1a05974-a824-4dda-8a75-5c2804794766</ID>
+    <Poster>Putin156</Poster>
+    <Content>It is very cold in Russia at the moment</Content>
+    <Timestamp>2020-04-10T01:30:33.8862322+02:00</Timestamp>
+  </TweetModel>
+</Tweets>

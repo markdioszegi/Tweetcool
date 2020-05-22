@@ -1,0 +1,31 @@
+﻿@model TweetModel
+@{
+    ViewData["Title"] = "Home Page";
+    string poster = Context.Request.Cookies.ContainsKey("poster") ? Context.Request.Cookies["poster"] : "Poster";
+}
+
+@* <div class="text-center">
+    
+</div> *@
+
+<div class="tc-box d-flex">
+    <div class="flex-row m-2">
+        <div class="flex-column">
+            <div class="text-center">
+                <img class="tc-img-md" src="~/img/user.png" onclick="changeAvatar(this)" title="Change avatar">
+                <input id="change-avatar" type="file" name="name" style="display: none;"/>
+            </div>
+            @*Poster*@
+            <div class="mt-2">
+                <input placeholder="Your name here..." class="tc-poster font-weight-bold" form="tweet" name="poster" value="@poster" maxlength="18" spellcheck="false"/>
+            </div>
+        </div>
+    </div>
+    <div class="flex-column w-100">
+        <form id="tweet" asp-area="" asp-controller="Home" asp-action="PostTweet">
+            @* Content *@
+            <textarea type="textarea" name="content" class="tc-textarea mb-3 w-100" placeholder="What's on your mind?" maxlength="512" required></textarea>
+            <button class="float-right tc-btn-tweet font-weight-bold">Tweet</button>
+        </form>
+    </div>  
+</div>

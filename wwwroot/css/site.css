@@ -1,0 +1,208 @@
+﻿/* Please see documentation at https://docs.microsoft.com/aspnet/core/client-side/bundling-and-minification
+for details on configuring this project to bundle and minify static web assets. */
+
+a.navbar-brand {
+  white-space: normal;
+  text-align: center;
+  word-break: break-all;
+}
+
+/* Provide sufficient contrast against white background */
+a {
+  color: #0366d6;
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: #1b6ec2;
+  border-color: #1861ac;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+  color: #fff;
+  background-color: #1b6ec2;
+  border-color: #1861ac;
+}
+
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+  font-family: fontAwesome;
+  font-size: 14px;
+}
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+.border-top {
+  border-top: 1px solid #e5e5e5;
+}
+.border-bottom {
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.box-shadow {
+  box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
+}
+
+button.accept-policy {
+  font-size: 1rem;
+  line-height: inherit;
+}
+
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 60px;
+  font-family: 'Merriweather', serif;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  white-space: nowrap;
+  line-height: 60px; /* Vertically center the text there */
+}
+
+.circular
+{
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  transition: all 0.2s ease;
+}
+
+.circular:hover
+{
+  background: #1da0f246;
+}
+
+.tc-box
+{
+  border: 1px solid rgb(230, 236, 240);
+  padding: 16px 16px;
+}
+
+.tc-img-sm
+{
+  height: 1.75rem;
+}
+
+.tc-img-md
+{
+  height: 4.2rem;
+  background-color: rgb(179, 179, 179);
+  border-radius: 9999px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.tc-img-md:hover
+{
+  background-color: rgb(117, 117, 117);
+}
+
+.tc-btn-tweet
+{
+  color: white;
+  border: none;
+  border-width: 1px;
+  border-radius: 9999px;
+  padding: 10px;
+  background-color: rgb(32, 130, 190);
+  transition: all 0.2s ease;
+}
+
+.tc-btn-tweet:hover
+{
+  background-color: rgb(26, 145, 218);
+}
+
+.tc-btn-tweet:focus
+{
+  outline: none;
+}
+
+.tc-btn-tweet:active
+{
+  background-color: rgb(15, 87, 131);
+}
+
+.tc-textarea
+{
+  border: none;
+  outline: none;
+  text-align: left;
+  overflow: auto;
+  min-height: 6rem;
+  height: 144px;
+  max-height: fit-content;
+}
+
+.tc-poster
+{
+  border: none;
+  outline: none;
+  text-decoration: none;
+  text-align: center;
+}
+
+.tc-poster-tweet
+{
+  flex: 0 0 6rem;
+}
+
+.tc-btn-top
+{
+  width: 3rem;
+  height: 3rem;
+  display: inline-block;
+  position: fixed;
+  bottom: 96px;
+  right: 48px;
+  z-index: 1000;
+  outline: none;
+  border-radius: 9999px;
+  border: none;
+  color: white;
+  background-color: rgb(32, 130, 190);
+  transition: background-color .3s, 
+    opacity .5s, visibility .5s;
+  opacity: 0;
+  visibility: hidden;
+}
+
+.tc-btn-top:hover
+{
+  background-color: rgb(26, 145, 218);
+}
+
+.tc-btn-top:active
+{
+  background-color: rgb(15, 87, 131);
+}
+
+.tc-btn-top:focus
+{
+  outline: none;
+}
+
+.tc-btn-top-show
+{
+  opacity: 0.9;
+  visibility: visible;
+}
+
+/* .tc-div-editable:focus
+{
+  outline: none;
+} */
